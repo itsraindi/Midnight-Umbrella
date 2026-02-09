@@ -31,6 +31,7 @@ public class MainMenuController : MonoBehaviour
     {
         StartCoroutine(Transition(mainMenuPanel, settingsPanel));
     }
+
     // Called by BACK button (inside settings)
     public void OnBackPressed()
     {
