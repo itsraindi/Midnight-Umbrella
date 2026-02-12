@@ -9,6 +9,9 @@ public class AudioController : MonoBehaviour
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
 
+    [Header("Clips")]
+    [SerializeField] private AudioClip uiClickClip;
+
     private float masterVolume = 1f;
 
     private void Awake()
@@ -42,5 +45,11 @@ public class AudioController : MonoBehaviour
     {
         if (sfxSource == null || clip == null) return;
         sfxSource.PlayOneShot(clip, masterVolume);
+    }
+
+    // Convenience for UI buttons
+    public void PlayUIClick()
+    {
+        PlaySFX(uiClickClip);
     }
 }
