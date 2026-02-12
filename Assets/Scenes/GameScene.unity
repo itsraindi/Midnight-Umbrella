@@ -2389,7 +2389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clue: {fileID: 11400000, guid: dcf8be7bab6f2014188d8f713a5b8a68, type: 2}
-  dialogue: {fileID: 11400000, guid: 5f8d6e907ccfbdf41a50a4d64a5fd4b1, type: 2}
+  dialogue: {fileID: 0}
   interactKey: 102
   playerTag: Player
   destroyOnPickup: 1
