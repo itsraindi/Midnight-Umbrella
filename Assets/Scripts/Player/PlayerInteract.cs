@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
-    public float interactRange;
+    public float interactRange = 1.5f;
     public LayerMask interactLayer;
 
     // Update is called once per frame
