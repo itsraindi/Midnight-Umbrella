@@ -9,11 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fff98dc8e576c394ca97501b4e9489ba, type: 3}
-  m_Name: Clue_A
+  m_Script: {fileID: 11500000, guid: cb94c8035900c477a960f0bf9ca17557, type: 3}
+  m_Name: Door2Dialogue
   m_EditorClassIdentifier: 
-  id: clue_a
-  title: Clue A
-  description: PLACE HOLDER TEST 1
-  icon: {fileID: 0}
-  category: 
+  lines:
+  - '"I can''t leave yet, I wouldn''t know where to go."'
